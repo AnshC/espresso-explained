@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap');
+
+/* Default Styling */
+
+:root {
+    --text: #fff;
+    --bg: #000000;
+    --primary: #EEE0CB;
+    --primary-active: #c8bdac;
+    --secondary: #c87854;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+canvas.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 5vh 10vw 5vh 10vw;
+}
+
+h1, h2 {
+    font-family: 'Lobster', serif;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.styled-link {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 2px;
+    color: var(--primary);
+}
+
+.styled-link:hover {
+    color: var(--primary-active);
+}
+
+.coffee {
+    color: var(--secondary) !important;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px 0 10px;
+    transition: transform 0.1s ease;
+}
+
+nav ul li a {
+    border: 2px solid var(--primary);
+    border-radius: 1000px;
+    padding: 3px 12px 3px 12px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-right: 7px;
+    font-size: 13px;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+/* Home Styles */
+
+header span#coffee {
+    color: var(--secondary);
+    font-family: Lobster, sans-serif;
+}
+
+header h1#main {
+    text-align: center;
+    font-size: 68px;
+}
+
+header p#description {
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 5vw 0 5vw;
+}
+
+/* Card Styles */
+
+.cards {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+/* Custom Component Scroll Bar Styles */
+
+.cards::-webkit-scrollbar {
+    width: 3px;
+}
+
+.cards::-webkit-scrollbar-track {
+    background: var(--bg); 
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background: var(--primary); 
+}
+
+.cards::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-active); 
+}
+
+.card {
+    width: 300px;
+    height: 170px;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 20px 20px 0;
+}
+
+.card h2 {
+    color: var(--secondary);
+}
+
+.card p {
+    color: var(--text);
+}
+
+.card #bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.card #bottom i {
+    margin-left: 5px;
+}
+
+/* Footer Designs */
+
+footer {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p, footer span, footer a {
+    font-family: Lobster, sans-serif;
+}
