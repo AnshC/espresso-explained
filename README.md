@@ -10,7 +10,7 @@ Designed & developed by me for SI 339 at the University of Michigan.
 
 [Particles.js](https://github.com/marcbruederlin/particles.js) by marcbruederlin.
 
-[<model-viewer>](https://modelviewer.dev/) for 3D models.
+[model-viewer](https://modelviewer.dev/) for 3D models.
 
 ## Credits
 
