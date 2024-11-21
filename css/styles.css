@@ -314,6 +314,49 @@ main#coffee section#content::-webkit-scrollbar-thumb:hover {
     background: var(--primary-active); 
 }
 
+/* Responsive Styles */
+
+
+/* About Page styles */
+
+main#about section#model {
+    width: 50%;
+    height: 60vh;
+}
+
+main#about section#content {
+    text-align: right;
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main#about section#content p{
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+main#about section#content h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.model {
+   height: 100%;
+   width: 100%;
+   transform: scale(1.1);
+}
+
+#about {
+    padding: 0 5vw 0 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer Designs */
 
 footer {
