@@ -1,3 +1,3 @@
 // Imports Navigation Component to "header" ID components on all HTML pages
 let header = document.getElementById("nav");
-header.innerHTML = '<nav><ul><li><a href="/index.html" class="link"><i class="fa-solid fa-mug-hot"></i> Brews</a></li><li><a href="pages/about.html" class="link"><i class="fa-solid fa-info"></i> About</a></li><li><a href="https://github.com/AnshC" class="link"><i class="fa-brands fa-github"></i> Github</a></li></ul></nav>'
+header.innerHTML = '<nav><ul><li><a href="/index.html" class="link"><i class="fa-solid fa-mug-hot"></i> Brews</a></li><li><a href="/pages/about.html" class="link"><i class="fa-solid fa-info"></i> About</a></li><li><a href="https://github.com/AnshC" class="link"><i class="fa-brands fa-github"></i> Github</a></li></ul></nav>'
