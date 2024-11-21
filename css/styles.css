@@ -60,7 +60,6 @@ h1, h2 {
 
 .styled-link {
     text-decoration: underline;
-    text-decoration-style: wavy;
     text-underline-offset: 2px;
     color: var(--primary);
 }
