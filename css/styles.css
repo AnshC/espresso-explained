@@ -430,4 +430,8 @@ footer p, footer span, footer a {
         transition: none;
     }
 
+    .card {
+        transition: none;
+    }
+
 }
