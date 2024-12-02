@@ -1,4 +1,4 @@
-# [Espresso Explained](https://anshc.github.io/espresso-explained/)
+# :coffee: [Espresso Explained](https://anshc.github.io/espresso-explained/)
 
 A simple website acting as a dictionary for common coffee drinks found at cafes.
 
