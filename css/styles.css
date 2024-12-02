@@ -418,8 +418,8 @@ footer p, footer span, footer a {
         display: none;
     }
 
-    .card:hover, .img:hover, img:hover, li:hover {
-        transition: none !important;
+    * {
+        transition: all 0s;
     }
 
 }
