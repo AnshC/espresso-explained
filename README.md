@@ -2,7 +2,7 @@
 
 A simple website acting as a dictionary for common coffee drinks found at cafes.
 
-Designed & developed by me for SI 339 at the University of Michigan.
+Designed and developed for SI 339 at the University of Michigan.
 
 ## JavaScript Libraries
 
