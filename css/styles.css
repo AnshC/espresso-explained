@@ -418,7 +418,7 @@ footer p, footer span, footer a {
         display: none;
     }
 
-    * {
+    .card, .img, img, li {
         transition: none;
     }
 
