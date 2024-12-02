@@ -418,8 +418,16 @@ footer p, footer span, footer a {
         display: none;
     }
 
-    * {
-        transition: all 0s;
+    main#coffee section#images img {
+        transition: none;
+    }
+
+    main#coffee section#images .row .img {
+        transition: none;
+    }
+
+    nav ul li {
+        transition: none;
     }
 
 }
