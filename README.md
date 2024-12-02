@@ -4,7 +4,7 @@ A simple website acting as a dictionary for common coffee drinks found at cafes.
 
 Designed and developed for SI 339 at the University of Michigan.
 
-## JavaScript Libraries
+## :file_folder: JavaScript Libraries
 
 [Vanilla-Tilt](https://micku7zu.github.io/vanilla-tilt.js/) by micku7zu.
 
@@ -12,9 +12,9 @@ Designed and developed for SI 339 at the University of Michigan.
 
 [model-viewer](https://modelviewer.dev/) for 3D models.
 
-## Credits
+## :page_facing_up: Credits
 
-### Icons by Flaticon
+### :iphone: Icons by Flaticon
 
 [Coffee icons created by Fir3Ghost - Flaticon](https://www.flaticon.com/free-icons/coffee)
 
@@ -30,11 +30,11 @@ Designed and developed for SI 339 at the University of Michigan.
 
 [Coffee maker icons created by berkahicon - Flaticon](https://www.flaticon.com/free-icons/coffee-maker)
 
-### 3D Render
+### :gem: 3D Render
 
 [Espresso Machine (XYZ Homework) detaling](https://skfb.ly/6ZDUp) by Nazar Romanenko is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 
-### Fonts
+### :abc: Fonts
 
 Fonts imported from [Google Fonts.](https://fonts.google.com)
 
