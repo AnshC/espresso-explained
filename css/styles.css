@@ -409,3 +409,17 @@ footer {
 footer p, footer span, footer a {
     font-family: Lobster, sans-serif;
 }
+
+/* Prefers Reduced Motion */
+
+@media (prefers-reduced-motion) {
+    
+    canvas.background {
+        display: none;
+    }
+
+    * {
+        transition: none;
+    }
+
+}
